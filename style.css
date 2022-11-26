@@ -287,7 +287,7 @@ footer
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #00C9FF;
+    background-color: white;
     z-index: 11;
     display:flex;
     align-items: center;
@@ -297,17 +297,19 @@ footer
 
 .efeito-carregamento
 {
-    width: 30px;
-    height: 35px;
-    background-color: white;
+    width: 400px;
+    height: 400px;
     border-radius: 100%;
-    animation: efeitos 0.5s infinite;
+    animation: efeitos 2s infinite;
 }
 @keyframes efeitos{
     0%{
-        box-shadow: 0 0 0 0 white;
+        opacity: 0%;
+    }
+    50%{
+        opacity: 50%;
     }
     100%{
-        box-shadow: 0 0 0 15px rgba(255, 255, 255, 0.3);
+        opacity: 1000%;
     }
 }
