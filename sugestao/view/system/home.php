@@ -76,7 +76,7 @@
                 <div class ="divisor-menu">
                     <ul>
                         <li> 
-                            <a href="../../../../home.html" rel = "next" target="_self"> 
+                            <a href="../../../home.html" rel = "next" target="_self"> 
                                 Inicio
                             </a>
                         </li>
